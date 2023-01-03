@@ -1,4 +1,5 @@
 # Categorical-Hamming-Kernels
+
 Kernel functions K(x, y) for categorical feature vectors x, y based on Hamming distance 
 
 Couto, J. (2005, September). Kernel k-means for categorical data. In International Symposium on Intelligent Data Analysis (pp. 46-56). Springer, Berlin, Heidelberg.
