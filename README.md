@@ -5,7 +5,9 @@ Kernel functions K(x, y) for categorical feature vectors x, y based on Hamming d
 Couto, J. (2005, September). Kernel k-means for categorical data. In International Symposium on Intelligent Data Analysis (pp. 46-56). Springer, Berlin, Heidelberg.
 
     Example:
-        # X[n_samples_x, n_cat_features], Y[n_samples_y, n_cat_features] - matricies of catagorical feature vectors, say of type int (as a result of, for ex., LabelEncoder() or any other with operand '!='
+        # X[n_samples_x, n_cat_features], Y[n_samples_y, n_cat_features] - matricies of catagorical feature vectors, 
+        # can be of type int (as a result of, for ex., LabelEncoder()) or any other type with operand '!='. 
+        # Floating point types are not preferred to avoid comparison errors.
         
         from cat_kernels import SSK_kernel, diffusion_kernel, kernel_in_parallel
         K = kernel_parallel(X, Y, SSK_kernel, {'lambd': 0.5}, n_jobs=4)     
