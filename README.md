@@ -1,6 +1,6 @@
 # Categorical-Hamming-Kernels
 
-Kernel functions K(x, y) for categorical feature vectors x, y based on Hamming distance.
+Kernel functions K(x, y) for categorical feature vectors x, y based on Hamming distance. Allows us to use kernel methods like _SVM_, _kernel regression_ or _kernel PCA_ with categorical features. The kernels reflect whether two corresponding categorical components of feature vectors are equal (Hamming distance approach). The components are also weighted by their cardinality (number of unique values).
 
 Couto, J. (2005, September). Kernel k-means for categorical data. In International Symposium on Intelligent Data Analysis (pp. 46-56). Springer, Berlin, Heidelberg.
 
